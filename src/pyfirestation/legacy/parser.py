@@ -36,7 +36,7 @@ class LegacyArgumentParser(ArgumentParser):
                                 default="/home/qib/PyFireStationnn/FireInput/wind_speed.asc",
                                 help="Nuatmos Input/Output file.")
         file_group.add_argument("-t", "--terrain", metavar="PATH",
-                                default="/home/qib/PyFireStationnn/FireInput/terrain.asc",
+                                default="terrain.asc",
                                 help="Terrain height ASCII raster.")
         file_group.add_argument("-f", "--fuel-distr", metavar="PATH",
                                 default="/home/qib/PyFireStationnn/FireInput/fueldistr.asc",
@@ -50,7 +50,7 @@ class LegacyArgumentParser(ArgumentParser):
         """
         general_group = self.add_argument_group("General", description=general_group_description)
         general_group.add_argument("-d", "--work-dir", metavar="PATH",
-                                   default=r"../../FireInput",
+                                   default=r"../../PyFireStation/FireInput",
                                    help="Working directory.")
         general_group.add_argument("-o", "--output", metavar="PATH",
                                    default="run.csv",
