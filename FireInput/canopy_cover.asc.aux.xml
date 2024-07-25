@@ -1,0 +1,10 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Canopy Cover</Description>
+    <UnitType>Percent</UnitType>
+    <Metadata>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="UnitOfMeasure">Percent</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

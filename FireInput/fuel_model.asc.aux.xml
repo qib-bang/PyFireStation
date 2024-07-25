@@ -1,0 +1,10 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Fuel Model</Description>
+    <UnitType>Class</UnitType>
+    <Metadata>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="UnitOfMeasure">Class</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
